@@ -3,7 +3,7 @@
 .navigation-bar {
     max-width: 1000px;
     width: 100%;
-    
+    border: 1px solid @nav-border;
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -23,7 +23,11 @@
         width: 40%;
 
         a {
-            text-decoration: none;
+            .navBar();
+        }
+
+        a:hover {
+            color: @nav-hover;
         }
     }
 }

@@ -163,6 +163,7 @@ p {
 .navigation-bar {
   max-width: 1000px;
   width: 100%;
+  border: 1px solid #F1F1F1;
   display: flex;
   align-items: center;
   margin: 0 auto;
@@ -181,7 +182,11 @@ p {
   width: 40%;
 }
 .navigation-bar nav a {
+  color: #454A59;
   text-decoration: none;
+}
+.navigation-bar nav a:hover {
+  color: #5E6164;
 }
 footer {
   color: #22283B;
@@ -234,6 +239,20 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  color: #81848E;
+  padding: 10px 0;
+  width: 100px;
+  text-align: center;
+  font-size: 1.8rem;
+  background: #22283A;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.home .walk .walk-text .btn:hover {
+  background: #81848E;
+  color: #22283A;
 }
 .home .walk .walk-img {
   width: 46%;
