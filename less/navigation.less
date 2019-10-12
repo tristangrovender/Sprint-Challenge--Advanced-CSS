@@ -10,6 +10,11 @@
     background: @wild-sand;
     flex-direction: column;
 
+    @media @phone {
+        max-width: 500px;
+        
+    }
+
     h1 {
         font-size: 4rem;
         padding: 15px;
@@ -21,6 +26,10 @@
         display: flex;
         justify-content: space-between;
         width: 40%;
+
+        @media @phone {
+            width: 80%;
+        }
 
         a {
             .navBar();
